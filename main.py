@@ -3,14 +3,12 @@ from Queue import Queue
 from spider import Spider
 from getdomain import *
 from general import *
-print 'start'
 PROJECT_NAME = 'theausome'
 HOMEPAGE = raw_input('Enter the website address')
 DOMAIN_NAME = get_domain_name(HOMEPAGE)
 QUEUE_FILE = PROJECT_NAME + '/queue.txt'
 CRAWLED_FILE = PROJECT_NAME + '/crawled.txt'
 NUMBER_OF_THREADS = 3
-print 'where'
 queue = Queue()
 Spider(PROJECT_NAME, HOMEPAGE, DOMAIN_NAME)
 
