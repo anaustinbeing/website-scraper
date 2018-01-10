@@ -1,8 +1,8 @@
 # Web Scraper
-Scrape any websites to retrieve all hyperlinks from it in a matter of seconds.
+Scrapes any website to retrieve all hyperlinks from it in a matter of seconds.
 ***************
 
-This Webscraping program is written in **Python 2.7.11**. Basically, it scrapes any websites and outputs all the links that it finds. The set of programs that ease this task are called web crawlers or spiderbots or simply spiders. Using threading module of Python, multiple spiders can be used to crawl multiple links at a time. You can change the number of threads in main.py file which is set to 3 for now. *Pretty cool! It saves time.*
+This Webscraping program is written in **Python 2.7.11**. You can safely convert it to run on any python versions. Basically, it scrapes any websites and outputs all the links that it finds. The set of programs that ease this task are called web crawlers or spiderbots or simply spiders. Using threading module of Python, multiple spiders can be used to crawl multiple links at a time. You can change the number of threads in main.py file which is set to 3 for now. *Pretty cool! It saves time.*
 
 
 A Web crawler, sometimes called a spider, is an Internet bot that systematically browses the World Wide Web, typically for the purpose of Web indexing (web spidering). - as described in 
@@ -17,7 +17,7 @@ Follow the steps below:
    
    
   
- **You can increse the number of spiders crawling by increasing the NUMBER_OF_THREADS in main.py file.**
+ **You can increase the number of spiders crawling by increasing the NUMBER_OF_THREADS in main.py file.**
    *Just simple!*
    
 
